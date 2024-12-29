@@ -1,0 +1,46 @@
+.jumbotron {
+    padding-top: 6rem;
+    background-color: #ffcaf0;
+  }
+  .navbar{
+    padding: 10px 20px;
+    position: sticky; 
+      top: 0;          
+      width: 100%;
+      z-index: 1000;
+  }
+  
+  .projects {
+    background-color: #ffcaf0;
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  
+  .button {
+    background-color: #ff71d5fd; /* Mengatur latar belakang button menjadi pink */
+    color: #000;           /* Mengatur warna teks menjadi putih */
+    border: none;           /* Menghapus border default */
+    padding: 10px 20px;     /* Menambahkan padding agar button lebih besar */
+    font-size: 16px;        /* Mengatur ukuran font */
+    cursor: pointer;       /* Menambahkan cursor pointer saat hover */
+    border-radius: 1px;     /* Menambahkan border-radius untuk sudut yang lebih halus */
+    transition: background-color 0.3s ease; /* Menambahkan transisi saat hover */
+}
+
+button:hover {
+  background-color: #ff66b2; /* Mengubah warna latar belakang saat hover */
+}
+
+
+.button {
+  background-color: #ff71d5fd; /* Mengatur latar belakang button menjadi pink */
+  color: #000;           /* Mengatur warna teks menjadi putih */
+}
+
+.footer{
+  padding: 2rem;
+  background-color: #ff71d5fd;
+  text-align: center;
+}
